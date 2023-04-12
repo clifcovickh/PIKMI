@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="31dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="  Jl.Pasir Kaliki No.25" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="292dp"
+        android:drawableLeft="@drawable/baseline_location_on_24"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="17dp"
+        android:drawableRight="@drawable/baseline_person_pin_24" />
+
+    <EditText
+        android:layout_width="324dp"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="75dp"
+        android:background="@drawable/btn_shapemain"
+        android:drawableLeft="@drawable/baseline_search_24"
+        android:text=" Search"
+        android:textColor="#9CA3AF"
+        android:textSize="12sp"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.321"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent=".9"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="149dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Available Items Today"
+        android:textColor="#1F2937" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="169dp"
+        android:layout_marginEnd="278dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Recently Added Items"
+        android:textColor="#6B7280"
+        android:textSize="10sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="281dp"
+        android:layout_marginTop="159dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="See All"
+        android:textColor="#6B7280"
+        android:textSize="10sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="157dp"
+        android:layout_marginEnd="78dp"
+        android:drawableLeft="@drawable/baseline_arrow_forward_ios_24" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="116dp"
+        android:layout_height="98dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="203dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="60dp"
+        android:maxHeight="60dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/image1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="311dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Tofu Stir Fry"
+        android:textColor="#1F2937" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="333dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Ruby Hotel"
+        android:textColor="#6B7280"
+        android:textSize="10sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="331dp"
+        android:layout_marginEnd="365dp"
+        android:drawableLeft="@drawable/baseline_location2_on_24" />
+
+    <ImageView
+        android:layout_width="116dp"
+        android:layout_height="98dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="203dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="60dp"
+        android:maxHeight="60dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/image2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="310dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Katsu Curry"
+        android:textColor="#1F2937" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="194dp"
+        android:layout_marginTop="333dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Westalis Resto"
+        android:textColor="#6B7280"
+        android:textSize="10sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="220dp"
+        android:drawableLeft="@drawable/baseline_location2_on_24" />
+
+    <ImageView
+        android:layout_width="114dp"
+        android:layout_height="98dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="318dp"
+        android:layout_marginTop="203dp"
+        android:layout_marginEnd="-22dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="60dp"
+        android:maxHeight="60dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/image3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="318dp"
+        android:layout_marginTop="310dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Bread"
+        android:textColor="#1F2937" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="334dp"
+        android:layout_marginTop="333dp"
+        android:layout_marginEnd="7dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Terra Cafe"
+        android:textColor="#6B7280"
+        android:textSize="10sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="331dp"
+        android:layout_marginEnd="79dp"
+        android:drawableLeft="@drawable/baseline_location2_on_24" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="369dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Explore Restaurant"
+        android:textColor="#1F2937" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="282dp"
+        android:layout_marginTop="380dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="See All"
+        android:textColor="#6B7280"
+        android:textSize="10sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="378dp"
+        android:layout_marginEnd="78dp"
+        android:drawableLeft="@drawable/baseline_arrow_forward_ios_24" />
+
+    <TextView
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginEnd="256dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="View Restaurants Nearby"
+        android:textColor="#6B7280"
+        android:textSize="10sp" />
+
+    <ImageView
+
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="424dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="60dp"
+        android:maxHeight="60dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/image4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="426dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Ruby Hotel"
+        android:textColor="#1F2937" />
+
+    <TextView
+        android:layout_width="72dp"
+        android:layout_height="22dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="448dp"
+        android:fontFamily="@font/inter_semibold"
+
+        android:text="Jl. Pasir Kaliki No. 55,
+Ciroyom"
+        android:textColor="#6B7280"
+        android:textSize="7sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="447dp"
+        android:layout_marginEnd="294dp"
+        android:drawableLeft="@drawable/baseline_location2_on_24" />
+
+    <ImageView
+
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="487dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="60dp"
+        android:maxHeight="60dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/image5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="510dp"
+        android:layout_marginEnd="294dp"
+        android:drawableLeft="@drawable/baseline_location2_on_24" />
+
+    <TextView
+        android:layout_width="72dp"
+        android:layout_height="22dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="511dp"
+        android:fontFamily="@font/inter_semibold"
+
+        android:text="Jl. Pasir Kaliki No. 78,
+Ciroyom"
+        android:textColor="#6B7280"
+        android:textSize="7sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="489dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Westalis Resto"
+        android:textColor="#1F2937" />
+
+    <ImageView
+
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="551dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="60dp"
+        android:maxHeight="60dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/image6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="574dp"
+        android:layout_marginEnd="294dp"
+        android:drawableLeft="@drawable/baseline_location2_on_24" />
+
+    <TextView
+        android:layout_width="72dp"
+        android:layout_height="22dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="575dp"
+        android:fontFamily="@font/inter_semibold"
+
+        android:text="Jl. Pasir Kaliki No. 91,
+Ciroyom"
+        android:textColor="#6B7280"
+        android:textSize="7sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="553dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Terra Cafe"
+        android:textColor="#1F2937" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp" />
+
+
+</RelativeLayout>

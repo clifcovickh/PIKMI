@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="69dp"
+        android:layout_height="23dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Login"
+        android:textAlignment="center"
+
+        android:textColor="#32B768"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.169"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:layout_width="324dp"
+        android:layout_height="42dp"
+        android:background="@drawable/edittext_bkg"
+
+        android:text="     Emailname@email.com"
+
+        android:textColor="#374151"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.321"
+        app:layout_constraintStart_toStartOf="parent"
+
+
+        app:layout_constraintWidth_percent=".9"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <TextView
+        android:layout_width="122dp"
+        android:layout_height="21dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="  Email address"
+        android:textAlignment="center"
+
+        android:textColor="#9CA3AF"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.384"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:layout_width="324dp"
+        android:layout_height="42dp"
+        android:background="@drawable/edittext_bkg"
+
+        android:text="     *****************"
+
+        android:textColor="#374151"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.321"
+        app:layout_constraintStart_toStartOf="parent"
+
+
+        app:layout_constraintWidth_percent=".9"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <TextView
+        android:layout_width="105dp"
+        android:layout_height="22dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Password"
+        android:textAlignment="center"
+
+        android:textColor="#9CA3AF"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.521"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="111dp"
+        android:layout_height="15dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Forget password?"
+        android:textAlignment="center"
+
+        android:textColor="#32B768"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.803"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.632"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="229dp"
+        android:layout_height="39dp"
+        android:background="@drawable/button_bg_design"
+        android:fontFamily="@font/inter"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.708" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
