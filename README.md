@@ -6,7 +6,7 @@ Application for solving food waste by share leftovers
 
 1. Go To Issues Tab
 
-![image](https://github.com/joshuawenata/MobileFinalProject/assets/100125029/c349492b-cc66-4522-8121-51dfcb466349)
+<img href="https://primegap-list-project.github.io/img/news/2019-12-08-how-to-submit-via-a-github-issue-00.png"></img>
 
 2. Pick Issues that you want to work on it
 
