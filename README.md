@@ -14,7 +14,9 @@ Application for solving food waste by share leftovers
 
 3. Assign yourself
 
-![image](https://github.com/joshuawenata/MobileFinalProject/assets/100125029/b0fb4b28-bcfc-4c5c-96b2-0973d0a63b49)
+<p align="center">
+  <img src="https://github.blog/wp-content/uploads/2016/05/104ba0d6-2408-11e6-9015-ca279ad95564.gif?resize=1056%2C611"/>
+</p>
 
 4. Create the branch
 
