@@ -6,7 +6,9 @@ Application for solving food waste by share leftovers
 
 1. Go To Issues Tab
 
-<img href="https://primegap-list-project.github.io/img/news/2019-12-08-how-to-submit-via-a-github-issue-00.png"></img>
+<p align="center">
+  <img src="https://primegap-list-project.github.io/img/news/2019-12-08-how-to-submit-via-a-github-issue-00.png"/>
+</p>
 
 2. Pick Issues that you want to work on it
 
